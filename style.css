@@ -12,6 +12,17 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.button {
+  background-color: #03560f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+.button:hover {
+  background-color:#56584b;
+  color: black;
+  border-color: black;
+}
 
 h1,
 h2,
@@ -258,6 +269,14 @@ p {
 
 .navbar nav ul li a:hover {
   color: #bfff00;
+}
+@media(max-width : 500px) {
+  .navbar{
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  
+  }
 }
 
 /* Section styles */
