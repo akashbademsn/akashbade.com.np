@@ -20,7 +20,7 @@ body {
 }
 .button:hover {
   background-color:#56584b;
-  color: black;
+  color: white;
   border-color: black;
 }
 
