@@ -232,15 +232,15 @@ p {
 * Desktop Navigation 
 */
 .navbar {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  /* background-color: #252227; */
   background-color: darkgreen;
   color: white;
-  padding: 10px 0;
-  text-align: center;
+  padding: 15px;
+  font-size: larger;
   z-index: 1000;
 }
 
